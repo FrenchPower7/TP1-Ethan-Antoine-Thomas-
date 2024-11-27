@@ -1,0 +1,5 @@
+echo ".env" >> .gitignore
+echo "*.txt" >> .gitignore
+git add .gitignore
+git commit -m "Ajout d'un .gitignore pour ignorer .env et *.txt"
+git push origin main
